@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99F9B0DB27810881007D722D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9B0DA27810881007D722D /* AppDelegate.swift */; };
+		99F9B0DD27810881007D722D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9B0DC27810881007D722D /* SceneDelegate.swift */; };
+		99F9B0DF27810881007D722D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9B0DE27810881007D722D /* ViewController.swift */; };
+		99F9B0E227810881007D722D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F9B0E027810881007D722D /* Main.storyboard */; };
+		99F9B0E427810882007D722D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F9B0E327810882007D722D /* Assets.xcassets */; };
+		99F9B0E727810882007D722D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F9B0E527810882007D722D /* LaunchScreen.storyboard */; };
+		99F9B0F227810883007D722D /* Bayleaf_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9B0F127810883007D722D /* Bayleaf_StoreTests.swift */; };
+		99F9B0FC27810883007D722D /* Bayleaf_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9B0FB27810883007D722D /* Bayleaf_StoreUITests.swift */; };
+		99F9B0FE27810883007D722D /* Bayleaf_StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9B0FD27810883007D722D /* Bayleaf_StoreUITestsLaunchTests.swift */; };
+		99F9B10B278108A1007D722D /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9B10A278108A1007D722D /* loginViewController.swift */; };
+		99F9B10D278108C6007D722D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F9B10C278108C6007D722D /* background.jpg */; };
+		99F9B10F27813407007D722D /* plant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F9B10E27813407007D722D /* plant.jpg */; };
+		99F9B11127813D44007D722D /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F9B11027813D44007D722D /* bg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99F9B0EE27810883007D722D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F9B0CF27810881007D722D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F9B0D627810881007D722D;
+			remoteInfo = "Bayleaf Store";
+		};
+		99F9B0F827810883007D722D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F9B0CF27810881007D722D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F9B0D627810881007D722D;
+			remoteInfo = "Bayleaf Store";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99F9B0D727810881007D722D /* Bayleaf Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bayleaf Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F9B0DA27810881007D722D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99F9B0DC27810881007D722D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99F9B0DE27810881007D722D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99F9B0E127810881007D722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99F9B0E327810882007D722D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99F9B0E627810882007D722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99F9B0E827810882007D722D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F9B0ED27810883007D722D /* Bayleaf StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayleaf StoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F9B0F127810883007D722D /* Bayleaf_StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayleaf_StoreTests.swift; sourceTree = "<group>"; };
+		99F9B0F727810883007D722D /* Bayleaf StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayleaf StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F9B0FB27810883007D722D /* Bayleaf_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayleaf_StoreUITests.swift; sourceTree = "<group>"; };
+		99F9B0FD27810883007D722D /* Bayleaf_StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayleaf_StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99F9B10A278108A1007D722D /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		99F9B10C278108C6007D722D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../Downloads/background.jpg; sourceTree = "<group>"; };
+		99F9B10E27813407007D722D /* plant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = plant.jpg; path = ../../../Downloads/plant.jpg; sourceTree = "<group>"; };
+		99F9B11027813D44007D722D /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../Downloads/bg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99F9B0D427810881007D722D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9B0EA27810883007D722D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9B0F427810883007D722D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99F9B0CE27810881007D722D = {
+			isa = PBXGroup;
+			children = (
+				99F9B0D927810881007D722D /* Bayleaf Store */,
+				99F9B0F027810883007D722D /* Bayleaf StoreTests */,
+				99F9B0FA27810883007D722D /* Bayleaf StoreUITests */,
+				99F9B0D827810881007D722D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99F9B0D827810881007D722D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99F9B0D727810881007D722D /* Bayleaf Store.app */,
+				99F9B0ED27810883007D722D /* Bayleaf StoreTests.xctest */,
+				99F9B0F727810883007D722D /* Bayleaf StoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99F9B0D927810881007D722D /* Bayleaf Store */ = {
+			isa = PBXGroup;
+			children = (
+				99F9B10C278108C6007D722D /* background.jpg */,
+				99F9B10E27813407007D722D /* plant.jpg */,
+				99F9B11027813D44007D722D /* bg.jpg */,
+				99F9B0DA27810881007D722D /* AppDelegate.swift */,
+				99F9B0DC27810881007D722D /* SceneDelegate.swift */,
+				99F9B0DE27810881007D722D /* ViewController.swift */,
+				99F9B10A278108A1007D722D /* loginViewController.swift */,
+				99F9B0E027810881007D722D /* Main.storyboard */,
+				99F9B0E327810882007D722D /* Assets.xcassets */,
+				99F9B0E527810882007D722D /* LaunchScreen.storyboard */,
+				99F9B0E827810882007D722D /* Info.plist */,
+			);
+			path = "Bayleaf Store";
+			sourceTree = "<group>";
+		};
+		99F9B0F027810883007D722D /* Bayleaf StoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				99F9B0F127810883007D722D /* Bayleaf_StoreTests.swift */,
+			);
+			path = "Bayleaf StoreTests";
+			sourceTree = "<group>";
+		};
+		99F9B0FA27810883007D722D /* Bayleaf StoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99F9B0FB27810883007D722D /* Bayleaf_StoreUITests.swift */,
+				99F9B0FD27810883007D722D /* Bayleaf_StoreUITestsLaunchTests.swift */,
+			);
+			path = "Bayleaf StoreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99F9B0D627810881007D722D /* Bayleaf Store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F9B10127810883007D722D /* Build configuration list for PBXNativeTarget "Bayleaf Store" */;
+			buildPhases = (
+				99F9B0D327810881007D722D /* Sources */,
+				99F9B0D427810881007D722D /* Frameworks */,
+				99F9B0D527810881007D722D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bayleaf Store";
+			productName = "Bayleaf Store";
+			productReference = 99F9B0D727810881007D722D /* Bayleaf Store.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99F9B0EC27810883007D722D /* Bayleaf StoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F9B10427810883007D722D /* Build configuration list for PBXNativeTarget "Bayleaf StoreTests" */;
+			buildPhases = (
+				99F9B0E927810883007D722D /* Sources */,
+				99F9B0EA27810883007D722D /* Frameworks */,
+				99F9B0EB27810883007D722D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F9B0EF27810883007D722D /* PBXTargetDependency */,
+			);
+			name = "Bayleaf StoreTests";
+			productName = "Bayleaf StoreTests";
+			productReference = 99F9B0ED27810883007D722D /* Bayleaf StoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99F9B0F627810883007D722D /* Bayleaf StoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F9B10727810883007D722D /* Build configuration list for PBXNativeTarget "Bayleaf StoreUITests" */;
+			buildPhases = (
+				99F9B0F327810883007D722D /* Sources */,
+				99F9B0F427810883007D722D /* Frameworks */,
+				99F9B0F527810883007D722D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F9B0F927810883007D722D /* PBXTargetDependency */,
+			);
+			name = "Bayleaf StoreUITests";
+			productName = "Bayleaf StoreUITests";
+			productReference = 99F9B0F727810883007D722D /* Bayleaf StoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99F9B0CF27810881007D722D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					99F9B0D627810881007D722D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					99F9B0EC27810883007D722D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 99F9B0D627810881007D722D;
+					};
+					99F9B0F627810883007D722D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 99F9B0D627810881007D722D;
+					};
+				};
+			};
+			buildConfigurationList = 99F9B0D227810881007D722D /* Build configuration list for PBXProject "Bayleaf Store" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99F9B0CE27810881007D722D;
+			productRefGroup = 99F9B0D827810881007D722D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99F9B0D627810881007D722D /* Bayleaf Store */,
+				99F9B0EC27810883007D722D /* Bayleaf StoreTests */,
+				99F9B0F627810883007D722D /* Bayleaf StoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F9B0D527810881007D722D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F9B0E727810882007D722D /* LaunchScreen.storyboard in Resources */,
+				99F9B10F27813407007D722D /* plant.jpg in Resources */,
+				99F9B10D278108C6007D722D /* background.jpg in Resources */,
+				99F9B0E427810882007D722D /* Assets.xcassets in Resources */,
+				99F9B11127813D44007D722D /* bg.jpg in Resources */,
+				99F9B0E227810881007D722D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9B0EB27810883007D722D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9B0F527810883007D722D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99F9B0D327810881007D722D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F9B10B278108A1007D722D /* loginViewController.swift in Sources */,
+				99F9B0DF27810881007D722D /* ViewController.swift in Sources */,
+				99F9B0DB27810881007D722D /* AppDelegate.swift in Sources */,
+				99F9B0DD27810881007D722D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9B0E927810883007D722D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F9B0F227810883007D722D /* Bayleaf_StoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9B0F327810883007D722D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F9B0FC27810883007D722D /* Bayleaf_StoreUITests.swift in Sources */,
+				99F9B0FE27810883007D722D /* Bayleaf_StoreUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99F9B0EF27810883007D722D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99F9B0D627810881007D722D /* Bayleaf Store */;
+			targetProxy = 99F9B0EE27810883007D722D /* PBXContainerItemProxy */;
+		};
+		99F9B0F927810883007D722D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99F9B0D627810881007D722D /* Bayleaf Store */;
+			targetProxy = 99F9B0F827810883007D722D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99F9B0E027810881007D722D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F9B0E127810881007D722D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99F9B0E527810882007D722D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F9B0E627810882007D722D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99F9B0FF27810883007D722D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99F9B10027810883007D722D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99F9B10227810883007D722D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bayleaf Store/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bayleaf-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99F9B10327810883007D722D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bayleaf Store/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bayleaf-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99F9B10527810883007D722D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bayleaf-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayleaf Store.app/Bayleaf Store";
+			};
+			name = Debug;
+		};
+		99F9B10627810883007D722D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bayleaf-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayleaf Store.app/Bayleaf Store";
+			};
+			name = Release;
+		};
+		99F9B10827810883007D722D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bayleaf-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bayleaf Store";
+			};
+			name = Debug;
+		};
+		99F9B10927810883007D722D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2U7934W7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bayleaf-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bayleaf Store";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99F9B0D227810881007D722D /* Build configuration list for PBXProject "Bayleaf Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F9B0FF27810883007D722D /* Debug */,
+				99F9B10027810883007D722D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F9B10127810883007D722D /* Build configuration list for PBXNativeTarget "Bayleaf Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F9B10227810883007D722D /* Debug */,
+				99F9B10327810883007D722D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F9B10427810883007D722D /* Build configuration list for PBXNativeTarget "Bayleaf StoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F9B10527810883007D722D /* Debug */,
+				99F9B10627810883007D722D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F9B10727810883007D722D /* Build configuration list for PBXNativeTarget "Bayleaf StoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F9B10827810883007D722D /* Debug */,
+				99F9B10927810883007D722D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99F9B0CF27810881007D722D /* Project object */;
+}
