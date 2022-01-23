@@ -65,11 +65,8 @@ class ViewController: UIViewController {
         let scaledTransform = originalTransform.scaledBy(x: 0.8, y: 0.8)
             let scaledAndTranslatedTransform = scaledTransform.translatedBy(x: x, y: 0)
             UIView.animate(withDuration: 0.7, animations: {
-                
                 self.containerView.transform = scaledAndTranslatedTransform
             })
-        
-        
     }
     
     func hideMenu() {
@@ -81,7 +78,6 @@ class ViewController: UIViewController {
                 self.containerView.layer.cornerRadius = 40
                 self.viewBG.layer.cornerRadius = self.containerView.layer.cornerRadius
             })
-        
     }
     
     
@@ -98,7 +94,6 @@ class ViewController: UIViewController {
             menu = true
             
         }
-        
         
     }
     
@@ -120,10 +115,7 @@ class ViewController: UIViewController {
     }
     
     
-    
-    
-    
-
+   
 }
 
 
@@ -150,17 +142,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             UIView.animate(withDuration: 1, animations: {
                 currentCell.alpha = 1
             })
-        
-    
-
         }
-        
     }
-    
-    
-    
-    
-    
     
 }
 
@@ -169,22 +152,12 @@ class tableViewCell: UITableViewCell {
     
     @IBOutlet var descriptionLabel: UILabel!
     
-//    let tap = UITapGestureRecognizer()
-//
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//
-//        self.contentView.addGestureRecognizer(tap)
-//        tap.addTarget(self, action: #selector(animate))
-//    }
-//
-//
     func animate() {
 
         descriptionLabel.textColor = #colorLiteral(red: 0.1471175551, green: 0.1743232608, blue: 0.1306586266, alpha: 0.8470588235)
         UIView.animate(withDuration: 1) {
             self.descriptionLabel.textColor = #colorLiteral(red: 0.6461477876, green: 0.6871469617, blue: 0.6214019656, alpha: 1)
+            
         }
-
     }
 }
