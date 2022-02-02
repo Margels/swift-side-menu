@@ -21,7 +21,18 @@ class ViewController: UIViewController {
     let screen = UIScreen.main.bounds
     var menu = false
     var home = CGAffineTransform()
-    var options = ["Home", "Settings", "Profile", "Terms and Conditions", "Privacy Policy"]
+    var options: [option] = [option(title: "Home", segue: "HomeSegue"),
+                             option(title: "Settings", segue: "SettingsSegue"),
+                             option(title: "Profile", segue: "ProfileSegue"),
+                             option(title: "Terms and Conditions", segue: "TermsSegue"),
+                             option(title: "Privacy Policy", segue: "PrivacySegue")
+                            ]
+    
+    struct option {
+        var title = String()
+        var segue = String()
+    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
