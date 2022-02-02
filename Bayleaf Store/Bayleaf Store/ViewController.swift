@@ -153,6 +153,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             UIView.animate(withDuration: 1, animations: {
                 currentCell.alpha = 1
             })
+            
+            self.parent?.performSegue(withIdentifier: options[indexPath.row].segue, sender: self)
         }
     }
     
